@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "5EnC6wuh3dpREorkKqCJLbS89nB+E4iIDYT2eQDgQMH6VNpw5xNeiK+UzGj5ufFkOJ+QdyM9dMh38Wftjxtj2w==",
+  "success": true,
+  "projectFilePath": "E:\\TaskManagement\\backend\\TaskManagementAPI\\TaskManagementAPI\\TaskManagementAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gyawa\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\gyawa\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\gyawa\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\gyawa\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\gyawa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\gyawa\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
