@@ -88,6 +88,42 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "TaskManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TaskManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TaskManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskManagement.Application.dll": {}
+        }
+      },
+      "TaskManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TaskManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskManagement.Domain.dll": {}
+        }
+      },
+      "TaskManagement.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TaskManagement.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TaskManagement.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskManagement.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -216,11 +252,28 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "TaskManagement.Application/1.0.0": {
+      "type": "project",
+      "path": "../TaskManagement.Application/TaskManagement.Application.csproj",
+      "msbuildProject": "../TaskManagement.Application/TaskManagement.Application.csproj"
+    },
+    "TaskManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../TaskManagement.Domain/TaskManagement.Domain.csproj",
+      "msbuildProject": "../TaskManagement.Domain/TaskManagement.Domain.csproj"
+    },
+    "TaskManagement.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../TaskManagement.Infrastructure/TaskManagement.Infrastructure.csproj",
+      "msbuildProject": "../TaskManagement.Infrastructure/TaskManagement.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Swashbuckle.AspNetCore >= 6.2.3"
+      "Swashbuckle.AspNetCore >= 6.2.3",
+      "TaskManagement.Application >= 1.0.0",
+      "TaskManagement.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -249,7 +302,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\TaskManagement\\backend\\TaskManagementAPI\\TaskManagement.Application\\TaskManagement.Application.csproj": {
+              "projectPath": "E:\\TaskManagement\\backend\\TaskManagementAPI\\TaskManagement.Application\\TaskManagement.Application.csproj"
+            },
+            "E:\\TaskManagement\\backend\\TaskManagementAPI\\TaskManagement.Infrastructure\\TaskManagement.Infrastructure.csproj": {
+              "projectPath": "E:\\TaskManagement\\backend\\TaskManagementAPI\\TaskManagement.Infrastructure\\TaskManagement.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
