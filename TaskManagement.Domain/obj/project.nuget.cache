@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3YRgaUgrBK5HImbvoRudQnrFN6OyLQMYsf+PSXhuYRNHJpbRSYhSlpLryhr51LkjRtEGK7QfHjMCdQFJRDHpZQ==",
+  "dgSpecHash": "x7xmEjBMjbQQil6eG6eEF6Y2Duo4eNrtp4sMH60EagHT8esHxiVu6Ltin2DcE9b79dalnb3WRdG4mT/afPpL7Q==",
   "success": true,
-  "projectFilePath": "E:\\TaskManagement\\backend\\TaskManagementAPI\\TaskManagement.Domain\\TaskManagement.Domain.csproj",
+  "projectFilePath": "C:\\Users\\rugyawali\\Desktop\\Personal\\TaskManagement_API\\TaskManagement.Domain\\TaskManagement.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
