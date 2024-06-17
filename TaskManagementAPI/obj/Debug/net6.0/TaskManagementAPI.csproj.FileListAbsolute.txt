@@ -11,7 +11,9 @@ E:\TaskManagement\backend\TaskManagementAPI\TaskManagementAPI\bin\Debug\net6.0\S
 E:\TaskManagement\backend\TaskManagementAPI\TaskManagementAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 E:\TaskManagement\backend\TaskManagementAPI\TaskManagementAPI\bin\Debug\net6.0\TaskManagement.Application.dll
 E:\TaskManagement\backend\TaskManagementAPI\TaskManagementAPI\bin\Debug\net6.0\TaskManagement.Domain.dll
+E:\TaskManagement\backend\TaskManagementAPI\TaskManagementAPI\bin\Debug\net6.0\TaskManagement.Infrastructure.dll
 E:\TaskManagement\backend\TaskManagementAPI\TaskManagementAPI\bin\Debug\net6.0\TaskManagement.Application.pdb
+E:\TaskManagement\backend\TaskManagementAPI\TaskManagementAPI\bin\Debug\net6.0\TaskManagement.Infrastructure.pdb
 E:\TaskManagement\backend\TaskManagementAPI\TaskManagementAPI\bin\Debug\net6.0\TaskManagement.Domain.pdb
 E:\TaskManagement\backend\TaskManagementAPI\TaskManagementAPI\obj\Debug\net6.0\TaskManagementAPI.csproj.AssemblyReference.cache
 E:\TaskManagement\backend\TaskManagementAPI\TaskManagementAPI\obj\Debug\net6.0\TaskManagementAPI.GeneratedMSBuildEditorConfig.editorconfig
@@ -34,5 +36,3 @@ E:\TaskManagement\backend\TaskManagementAPI\TaskManagementAPI\obj\Debug\net6.0\r
 E:\TaskManagement\backend\TaskManagementAPI\TaskManagementAPI\obj\Debug\net6.0\TaskManagementAPI.pdb
 E:\TaskManagement\backend\TaskManagementAPI\TaskManagementAPI\obj\Debug\net6.0\TaskManagementAPI.genruntimeconfig.cache
 E:\TaskManagement\backend\TaskManagementAPI\TaskManagementAPI\obj\Debug\net6.0\ref\TaskManagementAPI.dll
-E:\TaskManagement\backend\TaskManagementAPI\TaskManagementAPI\bin\Debug\net6.0\TaskManagement.Infrastructure.dll
-E:\TaskManagement\backend\TaskManagementAPI\TaskManagementAPI\bin\Debug\net6.0\TaskManagement.Infrastructure.pdb
