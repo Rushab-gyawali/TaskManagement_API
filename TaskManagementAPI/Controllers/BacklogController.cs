@@ -23,5 +23,16 @@ namespace TaskManagementAPI.Controllers
             var backlogList = _backlogService.GetAllBacklog();
             return Ok(backlogList);
         }
+        /// <summary>
+        /// create new backlog
+        /// </summary>
+        /// <param name="backlog"></param>
+        /// <returns></returns>
+        [HttpPost]
+        public ActionResult<Backlog> CreateBacklog(Backlog backlog)
+        {
+            var res = _backlogService.CreateBacklog(backlog);
+            return Ok(res);
+        }
     }
 }

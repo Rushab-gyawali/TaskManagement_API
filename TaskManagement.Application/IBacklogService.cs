@@ -11,5 +11,6 @@ namespace TaskManagement.Application
     public interface IBacklogService
     {
         List<Backlog> GetAllBacklog();
+        Backlog CreateBacklog(Backlog backlog);
     }
 }

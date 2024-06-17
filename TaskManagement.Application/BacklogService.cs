@@ -15,6 +15,13 @@ namespace TaskManagement.Application
         {
             _backlogRepository = backlogRepository;
         }
+
+        public Backlog CreateBacklog(Backlog backlog)
+        {
+            _backlogRepository.CreateBacklog(backlog);
+            return backlog;
+        }
+
         public List<Backlog> GetAllBacklog()
         {
             var backlog = _backlogRepository.GetAllBacklog();
