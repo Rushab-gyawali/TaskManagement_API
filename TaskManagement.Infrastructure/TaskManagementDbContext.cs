@@ -10,5 +10,7 @@ namespace TaskManagement.Infrastructure
 
         }
         public DbSet<Backlog> Backlogs { get; set; }
+        public DbSet<Company> Companies { get; set; }
+        public DbSet<Project> Projects { get; set; }
     }
 }
