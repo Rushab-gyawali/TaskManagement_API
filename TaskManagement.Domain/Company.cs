@@ -16,5 +16,8 @@ namespace TaskManagement.Domain
         public string? CreatedBy { get; set; }
         public string? UpdatedBy { get; set; }
         public string? UpdatedAt { get; set; }
+
+        //one to many 
+        public ICollection<Project>? Projects { get; set; }
     }
 }
