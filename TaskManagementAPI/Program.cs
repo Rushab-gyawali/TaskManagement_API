@@ -16,13 +16,14 @@ builder.Services.AddSwaggerGen();
 
 
 //add database service
-builder.Services.AddDbContext<TaskManagementDbContext>(opt => opt.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
-    b => b.MigrationsAssembly("TaskManagementAPI")));
+//builder.Services.AddDbContext<TaskManagementDbContext>(opt => opt.UseSqlServer(configuration.GetConnectionString("DefaultConnection"),
+//    b => b.MigrationsAssembly("TaskManagementAPI")));
 
 builder.Services.AddScoped<IBacklogService, BacklogService>();
 builder.Services.AddScoped<IBacklogRepository, BacklogRepository>(); // Register the repository
 
-
+//implement infrasture dependency injection
+builder.Services.ImplementPersistence(builder.Configuration);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

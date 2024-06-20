@@ -1,5 +1,5 @@
 ﻿using TaskManagement.Application;
-using TaskManagement.Domain;
+using TaskManagement.Domain.Entities;
 
 namespace TaskManagement.Infrastructure
 {

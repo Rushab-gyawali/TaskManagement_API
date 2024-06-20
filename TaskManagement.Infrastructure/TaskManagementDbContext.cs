@@ -1,14 +1,21 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using TaskManagement.Domain;
+using TaskManagement.Domain.Entities;
 
 namespace TaskManagement.Infrastructure
 {
-    public class TaskManagementDbContext : DbContext
+    public class TaskManagementDbContext : DbContext, ITaskManagementDbContext
     {
-        public TaskManagementDbContext(DbContextOptions<TaskManagementDbContext> options) : base(options)
+
+        public TaskManagementDbContext(DbContextOptions<TaskManagementDbContext> options) 
+            : base(options)
         {
 
         }
+
+        public DbSet<Backlog> Backlogs { get; set; }
+        public DbSet<Company> Companies { get; set; }
+        public DbSet<Project> Projects { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //one to many
@@ -23,13 +30,11 @@ namespace TaskManagement.Infrastructure
             //modelBuilder.Entity<MembersProject>()
             //    .HasKey(p => new {p.ProjectId,g.MemberId});
 
-            
+
         }
 
-        public DbSet<Backlog> Backlogs { get; set; }
-        public DbSet<Company> Companies { get; set; }
-        public DbSet<Project> Projects { get; set; }
+      
 
-        
+
     }
 }
